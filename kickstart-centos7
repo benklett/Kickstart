@@ -20,7 +20,7 @@ lang de_DE.UTF-8
 
 # Network information
 network  --bootproto=dhcp --device=eno16777736 --ipv6=auto --activate
-network  --hostname=centos7.setkeh.local
+network  --hostname=centos7.test.local
 # Root password
 rootpw --iscrypted $1$ntASRGQh$P9onjIsmAR2dDq0Ggv02t0
 # System services
