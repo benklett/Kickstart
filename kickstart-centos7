@@ -14,9 +14,9 @@ url --url="http://mirror.internode.on.net/pub/centos/7/os/x86_64"
 firstboot --enable
 ignoredisk --only-use=sda
 # Keyboard layouts
-keyboard --vckeymap=us --xlayouts='us'
+keyboard --vckeymap=de --xlayouts='de'
 # System language
-lang en_US.UTF-8
+lang de_DE.UTF-8
 
 # Network information
 network  --bootproto=dhcp --device=eno16777736 --ipv6=auto --activate
@@ -26,7 +26,7 @@ rootpw --iscrypted $1$ntASRGQh$P9onjIsmAR2dDq0Ggv02t0
 # System services
 services --enabled="sshd"
 # System timezone
-timezone Australia/Melbourne --isUtc
+timezone Europe/Berlin --isUtc
 # System bootloader configuration
 bootloader --location=mbr --boot-drive=sda
 # Partition clearing information
