@@ -22,7 +22,7 @@ lang en_US.UTF-8
 network  --bootproto=dhcp --device=eno16777736 --ipv6=auto --activate
 network  --hostname=centos7.setkeh.local
 # Root password
-rootpw --iscrypted $1$U/s30cHA$fkyh8UF997K2g.pzhP3X..
+rootpw --iscrypted $1$ntASRGQh$P9onjIsmAR2dDq0Ggv02t0
 # System services
 services --enabled="sshd"
 # System timezone
